@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+    body{
+        direction: rtl;
+    }
+    .questions-block{
+        width:99%;
+        margin: 0 auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .card {
+        float: left;
+        border: 1px solid #adb1ab;
+        margin: 2px;
+        cursor: pointer;
+        width: calc(25% - 4px);
+        height: 170px;
+    }
+    .card:hover {
+        background: #dff0d8;
+    }
+
+    .card-block {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+</style>
+</head>
+<body ng-controller = "mainctrl as vm">
+    <app-menu></app-menu>
+    <ui-view></ui-view>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="UTF-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js" charset="UTF-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="./node_modules/angular-local-storage/src/angular-local-storage.js"></script>
+    <script src="app.js" charset="UTF-8"></script>
+    <script src="app-menu/app-menu.component.js" charset="UTF-8"></script>
+    <script src="home/home.component.js" charset="UTF-8"></script>
+    <script src="questions/questions.component.js" charset="UTF-8"></script>
+
+
+</body>
+</html>

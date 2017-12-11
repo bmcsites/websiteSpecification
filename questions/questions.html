@@ -1,0 +1,9 @@
+<div class="questions-block">
+    <h1>{{vm.currentQuestion}}</h1>
+    <div class="card text-center  .col-xl-3 .col-lg-3 .col-md-6 .col-sm-12" ng-repeat="answer in vm.currentAnswers">
+        <div class="card-block" ng-click="vm.saveData(answer.id)">
+            <h3 class="card-title">{{answer.head}}</h3>
+            <p class="card-text">{{answer.body}}</p>
+        </div>
+    </div>
+</div>
