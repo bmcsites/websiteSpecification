@@ -1,0 +1,25 @@
+guide {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+guide h1, guide h2, guide h3, guide h4, guide p{
+    text-align: right;
+}
+
+guide .insideNav h4 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+guide .insideNav {
+    width: 320px;
+    margin: 0 auto;
+}
+
+guide .insideNav .btn {
+    display: block;
+    width: 120px;
+    font-size: 16px;
+}

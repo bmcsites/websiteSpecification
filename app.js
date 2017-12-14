@@ -6,7 +6,11 @@ app.config(function($stateProvider, $urlRouterProvider){
     $stateProvider
         .state('home', {
             url: '/home',
-            template: '<home></home>'
+            template: '<home class="col-xl-12 col-lg-12 col-md-12 col-sm-12"></home>'
+        })
+        .state('guide', {
+            url: '/guide',
+            template: '<guide></guide>'
         })
         .state('questions', {
             url: '/questions',

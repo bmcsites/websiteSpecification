@@ -1,12 +1,15 @@
-
 function AppMenuController() {
     this.menuItems = [
         {
-            name: 'Home',
+            name: 'קו ההתחלה',
             state: 'home'
         },
         {
-            name: 'Questions',
+            name: 'שאלות מנחות',
+            state: 'guide'
+        },
+        {
+            name: 'אפיון האתר',
             state: 'questions'
         }
     ]
