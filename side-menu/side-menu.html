@@ -1,3 +1,5 @@
+
+
 <ul class='nav nav-wizard'>
-    <li ng-repeat="item in vm.menuItems"><a href='#step1' data-toggle="tab">{{item.id}}</a></li>
+    <li ng-repeat="item in vm.menuItems" ng-click="vm.select($index, item.id)" ng-class="{active: vm.currentTextItem==item.id}"><a data-toggle="tab">{{item.m}}</a></li>
 </ul>

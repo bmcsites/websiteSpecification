@@ -36,3 +36,8 @@ guide .text-block {
 guide .mainContent #guideParts .showMe {
     display: block;
 }
+
+guide .mainContent #guideParts #part1 span:first-of-type ,
+guide .mainContent #guideParts #part1 span:last-of-type{
+    display:none;
+}

@@ -1,5 +1,11 @@
 function SideMenuController() {
-    console.log('menu items :', this.menuItems);
+    let self = this;
+    this.selectedIndex = 0;
+
+    this.select= function(index,id) {
+        self.selectedIndex=index;
+        self.currentTextItem = id;
+    };
 }
 
 app.component('sideMenu', {
@@ -7,6 +13,7 @@ app.component('sideMenu', {
     controller: SideMenuController,
     controllerAs: 'vm',
     bindings: {
-        menuItems: '<'
+        menuItems: '<',
+        currentTextItem: '='
     }
 });

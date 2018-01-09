@@ -1,21 +1,20 @@
-.questions-block{
+questions .questions-block{
     width:99%;
     margin: 0 auto;
 }
 
-.card {
+questions .card {
     float: left;
     border: 1px solid #adb1ab;
-    margin: 2px;
+    padding: 2px;
     cursor: pointer;
-    width: calc(25% - 4px);
     height: 170px;
 }
-.card:hover {
+questions .card:hover {
     background: #dff0d8;
 }
 
-.card-block {
+questions .card-block {
     width: 95%;
     margin: 0 auto;
 }
