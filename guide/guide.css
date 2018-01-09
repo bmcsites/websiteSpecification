@@ -1,4 +1,4 @@
-guide {
+guide{
     width: 80%;
     margin: 0 auto;
     display: block;
@@ -7,6 +7,10 @@ guide {
 
 guide h1, guide h2, guide h3, guide h4, guide p{
     text-align: right;
+}
+
+guide h3{
+    font-size: 22px;
 }
 
 guide .insideNav h4 {
@@ -23,4 +27,12 @@ guide .insideNav .btn {
     display: block;
     width: 120px;
     font-size: 16px;
+}
+
+guide .text-block {
+    display: none;
+}
+
+guide .mainContent #guideParts .showMe {
+    display: block;
 }
