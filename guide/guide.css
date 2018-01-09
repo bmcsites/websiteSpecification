@@ -2,6 +2,7 @@ guide {
     width: 80%;
     margin: 0 auto;
     display: block;
+    font-size: 15px;
 }
 
 guide h1, guide h2, guide h3, guide h4, guide p{
